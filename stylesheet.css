@@ -29,7 +29,6 @@ h1 {
   width: 90%;
   margin: 1% auto;
   text-align: center;
-  /* margin-bottom: 2rem; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2fr;
@@ -40,7 +39,6 @@ h1 {
     width: 90%;
     margin: 1% auto;
     text-align: center;
-    /* margin-bottom: 2rem; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr;
@@ -52,7 +50,6 @@ h1 {
     width: 90%;
     margin: 1% auto;
     text-align: center;
-    /* margin-bottom: 2rem; */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -78,7 +75,6 @@ h1 {
 #explanation {
   letter-spacing: 0px;
   line-height: 20px;
-  /* text-align: left; */
 }
 
 .button {

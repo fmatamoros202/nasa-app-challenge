@@ -25,13 +25,14 @@ h1 {
   background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 400px) {
 .container {
   width: 90%;
   margin: 1% auto;
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 @media only screen and (min-width: 750px) {
@@ -41,20 +42,20 @@ h1 {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr;
+    grid-template-rows: 1fr;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .container {
-    width: 90%;
-    margin: 1% auto;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    .container {
+      width: 90%;
+      margin: 1% auto;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 2fr;
+    }
   }
-}
 
 .picture-explanation-container {
   padding: 5%;
